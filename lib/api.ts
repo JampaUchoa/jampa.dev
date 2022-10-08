@@ -15,10 +15,12 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   const { data, content } = matter(fileContents)
 
   type Items = {
-    [key: string]: string
+    [key: string]: string | boolean
   }
 
   const items: Items = {}
+
+  items['hidden'] = !!data.hidden
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
@@ -37,10 +39,11 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   return items
 }
 
-export function getAllPosts(fields: string[] = []) {
+export function getAllPosts(fields: string[] = [], allowHidden: boolean= false) {
   const slugs = getPostSlugs()
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))
+    .filter(({hidden}) => !hidden)
     // sort posts by date in descending order
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
   return posts
