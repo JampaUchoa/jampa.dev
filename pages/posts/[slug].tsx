@@ -8,6 +8,7 @@ import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
+import DateFormatter from '../../components/date-formatter'
 
 type Props = {
   post: PostType
@@ -22,27 +23,32 @@ export default function Post({ post, morePosts, preview }: Props) {
   }
   return (
     <>
-        <Header />
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-            <article>
-              <Head>
-                <title>
-                  {post.title} | Jampa.dev
-                </title>
-                <meta property="og:image" content={post.coverImage} />
-              </Head>
-              <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-              />
-              <PostBody content={post.content} />
-            </article>
-          </>
-        )}
+      {router.isFallback ? (
+        <PostTitle>Loading…</PostTitle>
+      ) : (
+        <>
+          <article className="container">
+            <Head>
+              <title>
+                {post.title} | Jampa.dev
+              </title>
+              <meta property="og:image" content={post.coverImage} />
+            </Head>
+
+            <div className="post-header">
+              <h1>{post.title}</h1>
+              <h2>{post.subtitle}</h2>
+              <div className="">
+                <div className="post-date">
+                  <DateFormatter dateString={post?.date} />
+                </div>
+              </div>
+            </div>
+
+            <PostBody content={post.content} />
+          </article>
+        </>
+      )}
     </>
   )
 }
@@ -56,6 +62,7 @@ type Params = {
 export async function getStaticProps({ params }: Params) {
   const post = getPostBySlug(params.slug, [
     'title',
+    'subtitle',
     'date',
     'slug',
     'author',

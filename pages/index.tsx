@@ -15,26 +15,7 @@ export default function Index({ allPosts }: Props) {
       <Head>
         <title>Jampa.dev</title>
       </Head>
-      <header className="container">
-        <a href="/">
-          <h1 className="cool-gradient">
-            Jampa.dev
-          </h1>
-        </a>
-        <div className="links hidden">
-          <a href="/blog"> Blog </a>
-        </div>
-        <div className="contacts">
-          <a href="https://github.com/JampaUchoa">
-            <FaGithub />
-          </a>
-          <a href="https://www.linkedin.com/in/jampauchoa/">
-            <FaLinkedin />
-          </a>
-        </div>
-      </header>
 
-      <main>
         <div className="intro">
           <div className="container">
             <h2 className="cool-s"> Hiya,  </h2>
@@ -49,7 +30,6 @@ export default function Index({ allPosts }: Props) {
           <h2> My Stories </h2>
           <Stories posts={allPosts} />
         </div>
-      </main>
     </>
   )
 }

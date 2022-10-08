@@ -7,7 +7,6 @@ html {
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
 }
 
 * {
@@ -16,6 +15,9 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+img {
+    max-width: 100%;
+}
 
 a {
     text-decoration: inherit;
@@ -23,18 +25,19 @@ a {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1050px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 10px;
+    padding: 20px 20px 10px !important;
     align-items: center;
 
     h1 {
@@ -42,7 +45,8 @@ header {
         font-size: 1.6em;
         color: #169fff;
     }
-    .links > * {
+
+    .links>* {
         margin: 0 5px;
         padding: 0 5px;
         font-weight: 500;
@@ -58,7 +62,7 @@ header {
 
 }
 
-.intro{
+.intro {
     background-color: rgb(30, 30, 30);
     margin: 1.6em 0;
     overflow-x: hidden;
@@ -66,7 +70,7 @@ header {
     position: relative;
     height: 385px;
 
-    .container{
+    .container {
         position: absolute;
         left: 0;
         right: 0;
@@ -74,11 +78,12 @@ header {
         text-shadow: 1px 1px 1px #000;
     }
 
-    h2{
+    h2 {
         font-size: 4em;
         margin: 0;
         padding: 70px 0 0;
     }
+
     p {
         margin: 0 0 0.5em;
         font-weight: 500;
@@ -86,17 +91,36 @@ header {
     }
 }
 
-.about-me{
-    em{
+.about-me {
+    em {
         color: #AAA;
     }
 }
 
-.cool-gradient{
+.cool-gradient {
     --start-color: #284bf9;
     --end-color: #4dfffc;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(45deg,var(--start-color),var(--end-color));    
+    background-image: linear-gradient(45deg, var(--start-color), var(--end-color));
 
+}
+
+.post-header{
+    padding: 5em 0 2em;
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
+        color: #999;
+    }
+    .post-date{
+        color: #999;
+        display: none;
+    }
+}
+
+.post-body{
+    max-width: 65ch;
 }
