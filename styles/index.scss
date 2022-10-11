@@ -10,10 +10,6 @@ html {
 
 }
 
-* {
-    margin: 0px;
-}
-
 img {
     max-width: 100%;
 }
@@ -117,6 +113,12 @@ header {
         line-height: 29px;
     }
     
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
     .post-header{
         padding: 5em 0 2em;
         h1{
@@ -152,7 +154,7 @@ header {
         margin: 0;
     }
     code{
-        overflow: scroll;
+        overflow: auto;
         display: block;
     }
 }
