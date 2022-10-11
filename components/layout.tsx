@@ -11,9 +11,9 @@ const Layout = ({ preview, children }: Props) => {
     <>
       <Meta />
       <header className="container">
-        <a href="/">
+        <a href="/" style={{textDecoration: "inherit"}}>
           <h1 className="cool-gradient">
-            Jampa.dev
+           ./Jampa.dev
           </h1>
         </a>
         <div className="links hidden">
