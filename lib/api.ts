@@ -9,18 +9,18 @@ export function getPostSlugs() {
 }
 
 export function getPostBySlug(slug: string, fields: string[] = []) {
-  const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = join(postsDirectory, `${realSlug}.md`)
+  const realSlug = slug.replace(/\.mdx$/, '')
+  const fullPath = join(postsDirectory, `${realSlug}.mdx`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
   type Items = {
-    [key: string]: string | boolean
+    [key: string]: string
   }
 
   const items: Items = {}
 
-  items['hidden'] = !!data.hidden
+  items['hidden'] = ""
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
@@ -39,11 +39,11 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   return items
 }
 
-export function getAllPosts(fields: string[] = [], allowHidden: boolean= false) {
+export function getAllPosts(fields: string[] = [], allowHidden: boolean = false) {
   const slugs = getPostSlugs()
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))
-    .filter(({hidden}) => !hidden)
+    .filter(({ hidden }) => allowHidden || !hidden)
     // sort posts by date in descending order
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
   return posts

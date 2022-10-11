@@ -26,7 +26,7 @@ export default function Post({ post, morePosts, preview }: Props) {
         <PostTitle>Loading…</PostTitle>
       ) : (
         <>
-          <article className="container">
+          <article className="container article">
             <Head>
               <title>
                 {post.title} | Jampa.dev
