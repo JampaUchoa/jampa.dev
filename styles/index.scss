@@ -110,11 +110,11 @@ header {
 .article{
     color: #3aff22;
     font-family: Consolas;
-    line-height: calc(1em + 0.725rem);
     font-size: 18px;
     font-weight: 500;
     p {
         margin: 1.5em 0;
+        line-height: 29px;
     }
     
     .post-header{
@@ -150,5 +150,9 @@ header {
     }
     ul p {
         margin: 0;
+    }
+    code{
+        overflow: scroll;
+        display: block;
     }
 }
