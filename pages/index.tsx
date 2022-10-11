@@ -18,16 +18,16 @@ export default function Index({ allPosts }: Props) {
 
         <div className="intro">
           <div className="container">
-            <h2 className="cool-s"> Hiya,  </h2>
-            <h3>I am Jampa Uchoa </h3>
-            <p style={{ fontSize: "1.5em" }}> I'm an entrepreneur / developer / engineering manager. </p>
-            <p style={{ fontSize: "2em" }}> This blog will cover things that I learned along the road. </p>
-            <p style={{ fontSize: "1em" }}> Hopefully something can be useful. </p>
+            <h2> Hiya, </h2>
+            <h3>I am Jampa / John / Joao Uchoa </h3>
+            <p> I'm an entrepreneur turned developer turned engineering manager. </p>
+            <p> This blog will cover things that I learned along the road. </p>
+            <p> Hopefully something can be useful. </p>
           </div>
         </div>
 
         <div className="about-me container">
-          <h2> My Stories </h2>
+          <h2> <strong> My Stories </strong> </h2>
           <Stories posts={allPosts} />
         </div>
     </>

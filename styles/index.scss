@@ -1,22 +1,26 @@
 html {
     background-color: #0b1017;
-    color: #fff;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
+    font-family: "Consolas", monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
+    color: #3aff22;
 }
 
 img {
     max-width: 100%;
 }
 
-a {
-    text-decoration: inherit;
-    color: inherit;
+a{
+    text-decoration: underline;
+    color: #66ff33;
+    font-weight: bold;
+}
+
+strong{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #82ff72;
 }
 
 .container {
@@ -58,20 +62,7 @@ header {
 }
 
 .intro {
-    background-color: rgb(30, 30, 30);
-    margin: 1.6em 0;
-    overflow-x: hidden;
-    max-width: 100vw;
-    position: relative;
-    height: 385px;
-
-    .container {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        text-shadow: 1px 1px 1px #000;
-    }
+    margin: 2em 0 4em;
 
     h2 {
         font-size: 4em;
@@ -82,30 +73,21 @@ header {
     p {
         margin: 0 0 0.5em;
         font-weight: 500;
-        color: #fff;
-    }
-}
-
-.about-me {
-    em {
-        color: #AAA;
     }
 }
 
 .cool-gradient {
-    --start-color: #284bf9;
-    --end-color: #4dfffc;
+    --start-color: #35f928;
+    --end-color: #00b901;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(45deg, var(--start-color), var(--end-color));
-
+    background-image: linear-gradient(135deg, var(--start-color), var(--end-color));
+    text-transform: uppercase;
 }
 
 // Move this
 
 .article{
-    color: #3aff22;
-    font-family: Consolas, monospace;
     font-size: 18px;
     font-weight: 500;
     p {
@@ -139,17 +121,6 @@ header {
         max-width: 69ch;
     }
 
-    a{
-        text-decoration: underline;
-        color: #66ff33;
-        font-weight: bold;
-    }
-
-    strong{
-        font-weight: bolder;
-        text-transform: uppercase;
-        color: #82ff72;
-    }
     ul p {
         margin: 0;
     }
