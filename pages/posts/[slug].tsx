@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import PostBody from '../../components/post-body'
-import PostHeader from '../../components/post-header'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import PostTitle from '../../components/post-title'
 import Head from 'next/head'
@@ -32,6 +31,8 @@ export default function Post({ post, morePosts, preview }: Props) {
                 {post.title} | Jampa.dev
               </title>
               <meta property="og:image" content={post.coverImage} />
+              <meta property="og:type" content="article" />
+
             </Head>
 
             <div className="post-header">

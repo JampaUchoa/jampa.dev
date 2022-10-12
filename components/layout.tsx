@@ -20,14 +20,14 @@ const Layout = ({ preview, children }: Props) => {
           <a href="/blog"> Blog </a>
         </div>
         <div className="contacts">
-          <a href="mailto:hey@jampa.dev" target="_blank" rel="noreferrer noopener">
-            <FiMail /> 
+          <a href="https://www.linkedin.com/in/jampauchoa/" target="_blank" rel="noreferrer noopener">
+            <FiLinkedin />
           </a>
           <a href="https://github.com/JampaUchoa" target="_blank" rel="noreferrer noopener">
             <FiGithub />
           </a>
-          <a href="https://www.linkedin.com/in/jampauchoa/" target="_blank" rel="noreferrer noopener">
-            <FiLinkedin />
+          <a href="mailto:hey@jampa.dev" target="_blank" rel="noreferrer noopener">
+            <FiMail /> 
           </a>
         </div>
       </header>

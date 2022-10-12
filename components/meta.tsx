@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { HOME_OG_IMAGE_URL } from '../lib/constants'
 
 const Meta = () => {
   return (
@@ -32,7 +31,6 @@ const Meta = () => {
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
-      <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
         content={`Things that I wish I learned sooner. Blog about the engineering management covering hiring, management and performance.`}
