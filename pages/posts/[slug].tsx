@@ -28,7 +28,7 @@ export default function Post({ post, morePosts, preview }: Props) {
           <article className="container article">
             <Head>
               <title>
-                {post.title} | Jampa.dev
+                {post.title} - Jampa.dev
               </title>
               <meta property="og:image" content={post.coverImage} />
               <meta property="og:description" content={post.excerpt} />
