@@ -1,5 +1,5 @@
 import Meta from './meta'
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FiLinkedin, FiGithub, FiMail } from "react-icons/fi";
 
 type Props = {
   preview?: boolean
@@ -20,11 +20,14 @@ const Layout = ({ preview, children }: Props) => {
           <a href="/blog"> Blog </a>
         </div>
         <div className="contacts">
-          <a href="https://github.com/JampaUchoa">
-            <FaGithub />
+          <a href="mailto:hey@jampa.dev" target="_blank" rel="noreferrer noopener">
+            <FiMail /> 
           </a>
-          <a href="https://www.linkedin.com/in/jampauchoa/">
-            <FaLinkedin />
+          <a href="https://github.com/JampaUchoa" target="_blank" rel="noreferrer noopener">
+            <FiGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/jampauchoa/" target="_blank" rel="noreferrer noopener">
+            <FiLinkedin />
           </a>
         </div>
       </header>
