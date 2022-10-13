@@ -32,6 +32,7 @@ export default function Post({ post, morePosts, preview }: Props) {
               </title>
               <meta property="og:image" content={post.coverImage} />
               <meta property="og:description" content={post.excerpt} />
+              <meta name="description" content={post.excerpt} />
               <meta property="og:type" content="article" />
 
             </Head>
@@ -64,6 +65,7 @@ export async function getStaticProps({ params }: Params) {
   const post = getPostBySlug(params.slug, [
     'title',
     'subtitle',
+    'excerpt',
     'date',
     'slug',
     'author',
