@@ -3,16 +3,6 @@
     transition: 0.2s all ease;
     background-color: #111111;
 
-    &:hover{
-        background-color: #222222;
-        color: #26ff00;
-        a{
-            border: 3px solid #26ff00;
-        }
-        h3{
-            text-decoration: underline;
-        }
-    }
     a {
         padding: 1em;
         border-radius: 1em;
@@ -21,6 +11,14 @@
         border: 3px solid #2af207;
         text-decoration: none;
         transition: 0.2s all ease;
+        &:hover{
+            background-color: #222222;
+            color: #26ff00;
+            border: 3px solid #26ff00;
+            h3 {
+                text-decoration: underline;
+            }
+        }
     }
 
     h3 {
