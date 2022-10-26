@@ -1,7 +1,6 @@
 .stories {
     max-width: 65ch;
     transition: 0.2s all ease;
-    background-color: #111111;
 
     a {
         padding: 1em;
@@ -12,7 +11,7 @@
         text-decoration: none;
         transition: 0.2s all ease;
         &:hover{
-            background-color: #222222;
+            background-color: #22222255;
             color: #26ff00;
             border: 3px solid #26ff00;
             h3 {

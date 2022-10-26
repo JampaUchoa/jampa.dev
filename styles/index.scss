@@ -1,10 +1,10 @@
 html {
-    background-color: #131313;
+    background-color: #001f2b;
     margin: 0;
-    font-family: "Consolas", monospace;
+    font-family: "Menlo", "Courier New", "Consolas", monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #4aff32;
+    color: #42fb5d;
 }
 
 img {
@@ -87,9 +87,9 @@ header {
 // Move this
 
 .article{
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 500;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.015em;
     p {
         margin: 1.5em 0;
         line-height: 1.5em;
