@@ -71,15 +71,13 @@ Some people won't want to spend much time on a project that will be discarded, I
 If they did less then than that, provide feedback, and move on to the interviewing.
 
 
-### Technical Interview
+### Technical Interview areas to assess
 
-Areas to assess:
-
-Motivation
+#### Motivation
 
 The most important thing to screen during the interview is to see if they are motivated to engage in problems and resolve them. It is important to see what drives them and if they are interested in learning, which is the most important area.
 
-
+Questions:
 
 * Why did you become a software developer?
 * What did you learn in order to complete this project?
@@ -87,7 +85,7 @@ The most important thing to screen during the interview is to see if they are mo
 * What project did you do (even in college) that you are most proud of?
 * Follow up on the previous question: Why? What was the most exciting / hardest part about it?
 
-Coding:
+#### Coding:
 
 With the previous code from the take-home, have them create another (and quick) feature on top of it. Better yet, if possible, tell them to remove a feature they coded. If they cheated in the take home you will notice that they will struggle to make even a simple change. 
 
