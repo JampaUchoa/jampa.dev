@@ -62,7 +62,9 @@ In order to assess better, explain what things you are most interested in for th
 
 ### Screening
 
-After the submission deadline, rate candidates from the points mentioned above, if they display proficiency but the project lacks refinement, it is worth moving forward. There are people with more free time than others due to other real-life stuff. 
+After the submission deadline, rate candidates from the points mentioned above, if in the delivery they show proficiency but the project lacks refinement, it is worth moving forward.
+
+There are candidates with more free time than others so having this bar will give them another chance to show their skills.
 
 Some people won't want to spend much time on a project that will be discarded, I recommend interviewing all of those that were rated more than 60%.
 
