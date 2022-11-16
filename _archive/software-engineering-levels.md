@@ -3,7 +3,7 @@ title: 'Software Engineering Levels in Detail'
 subtitle: 'You are the CEO of your career'
 excerpt: 'This post aims to give transparency in how skills are evaluated to get an engineer promoted, a guide on how to look for opportunities to operate on a higher level, and how you get promoted.'
 date: '2022-10-22T05:35:07.322Z'
-hidden: false
+hidden: true
 ---
 ## Motivation
 
