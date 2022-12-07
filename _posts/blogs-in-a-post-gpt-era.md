@@ -1,8 +1,7 @@
 ---
-title: 'If an AI can write this blog, why bother?'
+title: 'If an AI can write this blog, why should I bother?'
 subtitle: "Blogs in a post ChatGPT era"
 excerpt: 'For every draft that I had, OpenAI brought almost the same points, so obviously someone has said those points before, so why bother writing them again?!'
-coverImage: '/assets/blog/jr-eng/og-image.jpg'
 date: '2022-12-07T05:35:07.322Z'
 hidden: false
 ---
@@ -52,7 +51,7 @@ I see ChatGPT making good content in all the points above, so we might have reac
 
 * Article about personal anecdotes that have the same point, in the end, my favorite one is from Steve Blank on [why devs leave](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-%E2%80%93-soda%E2%80%99s-are-no-longer-free/).
 
-* Personal viewpoint that differs from common sense, I was relieved that was not just me that has a problem with SCRUM or [Github name change](https://mooseyanon.medium.com/github-f-ck-your-name-change-de599033bbbe). Contrarian views is how we can open our eyes to improve processes.
+* Personal viewpoint that differs from common sense, I was relieved that was not just me that has a problem with SCRUM or [Github master branch change](https://mooseyanon.medium.com/github-f-ck-your-name-change-de599033bbbe). Contrarian views is how we can open our eyes to improve processes.
 
 Now let's see if ChatGPT has some points to complement, it takes a while to think and this is what it outputs:
 
