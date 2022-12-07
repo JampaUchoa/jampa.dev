@@ -48,11 +48,11 @@ Can a machine tell its limits without being instructed what they are? At least b
 
 I see ChatGPT making good content in all the points above, so we might have reached the OpenAI limit here, so here are my actual ideas to write:
 
-* Article that defends a point with hard data to back them up. An AI can explain lots of things, but some stuff is straight bullshit or just plain wrong. 
+* Article that defends a point with [hard data to back them up](https://blog.pragmaticengineer.com/project-management-at-big-tech/). An AI can explain lots of things, but some stuff is straight bullshit or just plain wrong. 
 
-* Article about personal anecdotes that have the same point, in the end, my favorite one is from Steve Blank on why devs leave.
+* Article about personal anecdotes that have the same point, in the end, my favorite one is from Steve Blank on [why devs leave](https://steveblank.com/2009/12/21/the-elves-leave-middle-earth-%E2%80%93-soda%E2%80%99s-are-no-longer-free/).
 
-* Personal viewpoint that differs from common sense, I was relieved that was not just me that has a problem with SCRUM when everybody praised it, now it is becoming more common are moving away from it. Contrarian views is how we can open our eyes to improve processes.
+* Personal viewpoint that differs from common sense, I was relieved that was not just me that has a problem with SCRUM or [Github name change](https://mooseyanon.medium.com/github-f-ck-your-name-change-de599033bbbe). Contrarian views is how we can open our eyes to improve processes.
 
 Now let's see if ChatGPT has some points to complement, it takes a while to think and this is what it outputs:
 
@@ -63,13 +63,13 @@ Nice! We broke it! Let's try again
 > Here are some additional ideas for tech-related articles:
 > 
 > An article about the potential uses and applications of AI in different industries, such as healthcare, finance, transportation, and education.
-
+>
 > An article about the ethical concerns surrounding the development and use of AI, including issues related to bias, privacy, and accountability.
-
+>
 > An article about the role of AI in shaping the future of work and the potential impacts on workers and the economy.
-
+>
 > An article about the latest developments and trends in AI research, including breakthroughs in natural language processing, computer vision, and machine learning.
-
+>
 > An article about the challenges and opportunities of integrating AI into existing systems and processes, and the importance of developing robust strategies and policies for managing AI technology.
 
 Hey, ChatGPT last time I check the world revolves around the sun.
