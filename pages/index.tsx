@@ -2,7 +2,6 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import Post from '../interfaces/post'
 import Stories from '../components/StoriesList/stories'
-import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 type Props = {
   allPosts: Post[]
@@ -40,6 +39,7 @@ export const getStaticProps = async () => {
     'subtitle',
     'slug',
     'excerpt',
+    'date'
   ])
 
   return {
