@@ -1,7 +1,7 @@
 ---
 title: >
     Giving feedback doesn't need to be awkward
-subtitle: "Investigating human bugs and helping them fix it"
+subtitle: "The feedback lifecycle: Investigation to action"
 excerpt: 'There are thousands of articles on why you should give feedback, here is how to give it.'
 coverImage: '/assets/blog/feedback/cover-art.jpg'
 date: '2023-01-07T05:35:07.322Z'
