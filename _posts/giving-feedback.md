@@ -1,10 +1,10 @@
 ---
 title: >
     Giving feedback doesn't need to be awkward
-subtitle: "What should not go into your resume"
-excerpt: 'There are thousands of articles on why you should give feedback, here is how to actually give it.'
+subtitle: "Investigating human bugs and helping them fix it"
+excerpt: 'There are thousands of articles on why you should give feedback, here is how to give it.'
+coverImage: '/assets/blog/feedback/cover-art.jpg'
 date: '2023-01-07T05:35:07.322Z'
-coverImage: '/assets/blog/resume/og-image.jpg'
 hidden: false
 ---
 
