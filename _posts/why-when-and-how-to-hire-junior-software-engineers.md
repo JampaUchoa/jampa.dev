@@ -97,13 +97,13 @@ Questions:
 
 # Onboarding and mentoring juniors
 
-If you made it this far, congratulations on the new hire, now let's set them up for success. The hardest time a software engineer works is during their onboarding. The experience feels like drinking water from a firehose, it's exciting but also hard since you don't want to disappoint.
+If you made it this far, congratulations on the new hire, now let's set them up for success. The hardest time a software engineer works is during their onboarding. The experience feels like drinking water from a firehose, it's exciting but also hard since they don't want to disappoint.
 
 The first thing that you need to do is set the pace, junior engineers are not used to working in a team normally, create expectations for their deliverability week-by-week basis until they can set expectations on their own. 
 
-If you fail to set expectations that the engineer will think the slack they were given during their onboard is the same as the day-to-day basis, just don't handle lots of docs and say "read this", most of them don't have the maturity of bootstrapping context on their own.
+If you fail to set expectations that the engineer will think the slack they were given during their onboard is the same as the day-to-day basis, just don't handle lots of docs and say "read this", most of them don't have the maturity of bootstrapping context on their own. Have some quick wins tasks so they can have an end-game.
 
-Assign a buddy for them, most likely the most chill senior engineer that you have, you will end up learning that they will be great partners for a long time in the company, reaching out to a manager as a junior is very scary, but reaching out to a peer in "the trenches" with them will be someone that they can rely upon, have a laugh and even gossip a bit.
+Assign a buddy for them, ideally the most chill senior engineer that you have, you will end up learning that they will be great partners for a long time in the company, reaching out to a manager as a junior is very scary, but reaching out to a peer in "the trenches" with them will be someone that they can rely upon, have a laugh and even gossip a bit.
 
 
 # Forward and onwards:
