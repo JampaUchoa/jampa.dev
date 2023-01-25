@@ -26,13 +26,13 @@ Senior engineers might do fine without tech specs since they have more of a musc
 
 ### Problem 
 
-Software is built it gets messy and disorganized, so people need to overcompensate in different ways, having more meetings to align, or the need to report more because of unexpected setbacks. Even if we can get alignment, the roadmap is now busted as tasks took way more time than expected.
+The software development process can be messy and disorganized, so people need to overcompensate in different ways. This can generate the need for more meetings to realign constantly, and the need to report to stakeholders more to avoid more unexpected setbacks. Even if we can get alignment, the roadmap is now busted as tasks took way more time than expected.
 
-Is easy to assume at the beginning of the project that the time to deliver is just the coding part:
+It is easy to assume at the beginning of the project that the time to deliver will be just coding and deploying:
 ```
-TimeToDeliver = TimeCoding
+TimeToDeliver = TimeCoding + TimeDeploying
 ```
-But in reality, the setbacks add to delivery:
+But in reality, the setbacks add to the delivery time:
 ```
 TimeToActuallyDeliver = TimeCoding + 
     TimeInMeetingsCheckingAndAssigningTasks + 
@@ -43,34 +43,33 @@ TimeToActuallyDeliver = TimeCoding +
 
 ### Proposed outcome
 
-We should have in the end a document showing that tech specs always lead to a proposed end goal or a solution. The tech spec could fix the scenarios above if one engineer could take time investigating before actually coding, they would only need a few hours to do it, and this will have benefits:
+We should have in the end a document showing that tech specs lead to a proposed end goal or a solution. The tech spec could fix the scenarios above if one engineer could take time investigating before actually coding, they would only need a few hours to do it, and this will have great benefits:
 
 
 
 * Getting agreement between stakeholders
 * Defining the task well and estimating better
 * Having clearly defined tasks and responsibilities among developers
-* Reduces also the necessity of meetings to align
+* Reduces the necessity of meetings to realign
 
-In the end, the advantages allow for the solution to be delivered faster with the bonus of having documentation started. Working with tech specs helps in "measure twice and cut once". 
+In the end, the solution is delivered faster with the bonus of having documentation started. Working with tech specs helps in "measuring twice and cutting once". 
 
 
 ### Proposed solution 1
 
-One way we can use to bring awareness to people on how to build a tech spec would be a blog post just telling them what is and having a template of its areas, we could grab some documents from the internet or just hack it with ChatGPT.
+One way we can use to bring awareness to people on how to build a tech spec would be a blog post telling them what is and having a template of its areas, we could grab some documents from the internet or just hack it with ChatGPT.
 
 We could go over the headers (Intro, State of Art, Problem) and in the proposed solution parts we would show the pros and cons. This will have the advantage of the document doing its purpose with fewer words but at the same time would be very boring.
 
 
 ### Proposed solution 2 - Chosen
 
-We could use the above structure but write a blog post in the tech spec format about tech specs, this would be nice, and totally not confusing at all. At the same time, this has caveats of maybe not getting the points across but it is peak comedy, despite not being a technical document the fanbase of 0 viewers will get it because they are very smart with big hands.
+We could start with the above solution but write a blog post in tech spec format talking about tech specs, this would be nice, and totally not confusing at all. At the same time, this has caveats of maybe not getting the points across but it is peak comedy, despite not being a technical document the fanbase of 0 viewers will get it because they are very smart.
 
 
 ### High-level architecture
 
 Create a tech spec with the following topics and motivation:
-
 
 
 * Pitch (so people know what the doc would be about)
