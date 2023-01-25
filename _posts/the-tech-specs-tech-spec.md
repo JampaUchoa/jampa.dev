@@ -10,7 +10,7 @@ hidden: false
 
 ### Pitch
 
-The purpose of this tech spec is to create a high-level document showing the importance of tech specs, like this one we begin by starting a small introduction to show what the document will be about.
+The purpose of this tech spec is to create a high-level document showing the importance of tech specs, we begin by starting a small introduction to show what the document will be about and then dive into sections.
 
 
 ### State of art
