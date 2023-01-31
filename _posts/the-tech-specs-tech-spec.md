@@ -92,7 +92,4 @@ Tasks:
 * Write a first draft
 * Insert comedy
 * Create a clickbait title
-* Publish it on the blog
-* Get 0 reads
-* ???
-* Profit
+* Publish it!
