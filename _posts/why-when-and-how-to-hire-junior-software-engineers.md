@@ -1,7 +1,7 @@
 ---
 title: 'In defense of Junior Engineers'
-subtitle: "Why, when, how to hire them and setting them up for success"
-excerpt: 'Hiring an engineer in need of training might seem like a bad idea but is a strategy that will pay off in the long run if done right.'
+subtitle: "Why, when and how to hire them"
+excerpt: 'Hiring an engineer in need of training might seem like a bad idea but is a strategy that will pay off in the long run.'
 coverImage: '/assets/blog/jr-eng/og-image.jpg'
 date: '2022-11-15T05:35:07.322Z'
 hidden: false
