@@ -19,7 +19,7 @@ The top three reasons that people leave are: not learning on their job, the job 
 
 # Hiring juniors
 
-While junior engineer knows how to code and build simple apps, they don't have much if any real company experience so traditional resume screenings won't tell much about their success in a job, they probably will have done one internship or a bigger project in college, and they probably [won't be descriptive with that either](/posts/mistakes-to-avoid-in-resume)
+While junior engineer knows how to code and build simple apps, they don't have much if any real company experience so traditional resume screenings won't tell much about their success in a job, they probably will have done one internship or a bigger project in college, and they probably [won't be descriptive with that either](/posts/mistakes-to-avoid-in-resume).
 
 ## Screening for potential and motivation
 
@@ -27,7 +27,7 @@ With juniors, their resume is more of a generic page, the first step for hiring 
 
 * Checking their GitHub projects/portfolio
 * Proficiency in English (non-English speaking countries)
-* The projects they attach to resumes, and accomplishments if any
+* The projects they attach to resumes, and accomplishments
 
 But this won't tell as much, so we need also to change the interview.
 
@@ -35,11 +35,11 @@ But this won't tell as much, so we need also to change the interview.
 
 ### Take Homes
 
-For senior engineers, proposing to take home tests is the quickest way to kill your hiring pipeline, they generally won't have time to do mundane tasks outside of their work, but in my experience juniors are motivated and up for the challenge.
+For senior engineers, doing take-home exercises is the quickest way to kill your hiring pipeline, they generally won't have time to do mundane tasks outside of their work, but in my experience juniors are motivated and up for the challenge.
 
-A good way to avoid people dropping out of the pipeline is announcing before proposing that feedback will be given for completed assignments, most people give up on doing take-homes because they don't receive feedback. 
+A good way to avoid people dropping out of the pipeline is announcing before proposing that feedback will be given for completed assignments, most people give up on doing take-homes because they don't receive feedback, or they get ghosted. 
 
-A take-home also allows the opportunity for developing skills, first junior I hired his Android project was above and beyond other candidates, we asked how many years he had with Android and he said that all he knew was the 4 hours of tutorials he read for doing the test, this was a great positive signal.
+A take-home also allows the opportunity for developing skills, first junior I hired submitted his Android project that was above and beyond other candidates. We asked how many years he had had with Android and he said that his knowledge was the 4 hours of tutorials he watched while doing the test, this was a great positive signal.
 
 Some examples of take-home tests:
 
@@ -53,17 +53,13 @@ Explain what things you are most interested in for the candidate, so they can kn
 
 ### Evaluating
 
-After the submission deadline, rate candidates from the points mentioned above, if in the delivery they show proficiency but the project lacks refinement, it is worth moving forward anyway, 
-
-Some people just don't have much free time, I recommend interviewing all of those that were rated more than 60%.
-
-If they did less then than that or made simple things too messy then provide feedback.
+Rate candidates from the points mentioned above, if in the delivery they show proficiency but the project lacks refinement, it is worth moving forward anyway. Some people just don't have much free time, I recommend interviewing all of those that were rated more than 60% and thanks the others, giving them feedback before moving on.
 
 ### Technical Interview areas to assess
 
 #### Coding:
 
-With the previous code from the take-home, have them create another (and quick) feature on top of it. Better yet, if possible, tell them to remove a feature they coded. If they cheated in the take home you will notice that they will struggle to make even a simple change. 
+To prove they did the code, we can their code from the take-home and have them create another (and quick) feature on top of it. Better yet, if possible, tell them to remove a feature they coded. If they cheated in the take home you will notice that they will struggle even with a simple change. 
 
 Questions:
 
@@ -72,7 +68,7 @@ Questions:
 
 #### Motivation
 
-The most important thing to screen during the interview is to see if they are motivated to engage in problems and resolve them. It is important to see what drives them and if they are interested in learning, which they will need to do.
+The most important thing to screen during the interview is to see if they are motivated to engage in problems and resolve them. It is important to see what drives to keep the interest in learning, which they will need to do.
 
 Questions:
 
@@ -102,4 +98,6 @@ Junior for mid-level is a faster promotion than mid to senior, you want to see t
 * They can get technical alignment among the members of the team
 * When they display experience in the process that the software is built from concept until production: agile rituals, development process, estimations, and timeline. Architecture, code style, PRs / reviews, deployment, and monitoring.
 
-Remember also that every engineer needs their salary updated, most people will leave after 2 years because they will get bombarded with recruiters with updated ranges. Junior engineers are the biggest culture carrier of the company due to all their professional experience they are with their company so they are well worth keep investing in.
+Most people will leave after 2 years because they will get bombarded by recruiters with better offers. It's also necessary to keep updating the salary to their value. 
+
+Junior engineers are the best culture carrier of the company, all their professional experience they have is with the company that hired them. While the seniors are rightly more skeptical because they were burned before, juniors think of the company people as friends, so they are well worth keeping investing in and proving them right.
